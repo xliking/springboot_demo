@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.easy</groupId>
+        <artifactId>springboot_demo</artifactId>
+        <version>0.0.1</version>
+    </parent>
+
+    <artifactId>demo</artifactId>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <com.easy.version>0.0.1</com.easy.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.easy</groupId>
+            <artifactId>web</artifactId>
+            <version>${com.easy.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.easy</groupId>
+            <artifactId>datasource</artifactId>
+            <version>${com.easy.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.easy</groupId>
+            <artifactId>redis</artifactId>
+            <version>${com.easy.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.easy</groupId>
+            <artifactId>mongo</artifactId>
+            <version>${com.easy.version}</version>
+        </dependency>
+
+        <!--        mybatis多数据源-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>dynamic-datasource-spring-boot3-starter</artifactId>
+            <version>4.3.0</version>
+        </dependency>
+
+
+
+
+    </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <!-- jar 打包插件 -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>3.2.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>dockerfile-maven-plugin</artifactId>
+                <version>1.4.9</version>
+                <configuration>
+                    <repository>${project.artifactId}</repository>
+                    <tag>${project.version}</tag>
+                    <buildArgs>
+                        <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
+                    </buildArgs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>default</id>
+                        <goals>
+                            <goal>build</goal>
+                            <goal>push</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,35 @@
+server:
+  port: 8082
+spring:
+  config:
+    import:
+      - optional:application-datasource.yml
+      - optional:application-web.yml
+      - optional:application-redis.yml
+  datasource:
+    hikari:
+      connection-timeout: 100000
+      idle-timeout: 100000
+      max-lifetime: 100000
+    dynamic:
+      primary: mysql_yun1 # 配置主数据源
+      datasource:
+        mysql_yun1: # 数据源的名字，第一个数据源
+          url: jdbc:mysql://localhost:3306/ai?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+          username: root
+          password: 123456
+          driver-class-name: com.mysql.cj.jdbc.Driver
+        mysql_yun2: # 数据源的名字，第二个数据源
+          url: jdbc:mysql://localhost:3306/ai?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+          username: root
+          password: 123456
+          driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    redis:
+      host: localhost
+      port: 9379
+      database: 6
+    elasticsearch:
+      client:
+        rest:
+          uris: http://localhost:9200

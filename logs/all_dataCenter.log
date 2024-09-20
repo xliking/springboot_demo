@@ -1,0 +1,195 @@
+2024-09-21 00:12:12.622 882172 INFO  [utdownHook] io.undertow                             : stopping server: Undertow - 2.3.8.Final 
+2024-09-21 00:12:12.837 882387 INFO  [utdownHook] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource start closing .... 
+2024-09-21 00:12:12.844 882394 INFO  [utdownHook] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Shutdown initiated... 
+2024-09-21 00:12:12.864 882414 INFO  [utdownHook] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Shutdown completed. 
+2024-09-21 00:12:12.865 882415 INFO  [utdownHook] c.b.d.d.d.DefaultDataSourceDestroyer    : dynamic-datasource close the datasource named [mysql_yun] success, 
+2024-09-21 00:12:12.865 882415 INFO  [utdownHook] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource all closed success,bye 
+2024-09-21 00:12:53.184 2464 INFO  [nd-preinit] o.h.validator.internal.util.Version     : HV000001: Hibernate Validator 8.0.1.Final 
+2024-09-21 00:12:54.024 3304 INFO  [      main] com.easy.demo.DemoApplication        : Starting DemoApplication using Java 17.0.12 with PID 10720 (C:\Users\16655054153\Desktop\github\springboot_demo\demo\target\classes started by 16655054153 in C:\Users\16655054153\Desktop\github\springboot_demo)
+2024-09-21 00:12:54.026 3306 INFO  [      main] com.easy.demo.DemoApplication        : The following 1 profile is active: "dev"
+2024-09-21 00:12:57.870 7150 WARN  [      main] o.m.spring.mapper.ClassPathMapperScanner: No MyBatis mapper was found in '[com.easy.**.dao]' package. Please check your configuration. 
+2024-09-21 00:13:00.151 9431 WARN  [      main] io.undertow.websockets.jsr              : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used 
+2024-09-21 00:13:00.214 9494 INFO  [      main] io.undertow.servlet                     : Initializing Spring embedded WebApplicationContext 
+2024-09-21 00:13:00.768 10048 WARN  [      main] org.mongodb.driver.uri                  : Connection string contains unsupported option 'servertimezone'. 
+2024-09-21 00:13:01.075 10355 INFO  [      main] org.mongodb.driver.client               : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "4.9.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Amazon.com Inc./17.0.12+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@3fe1b278, com.mongodb.Jep395RecordCodecProvider@3678f32e]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, contextProvider=null} 
+2024-09-21 00:13:01.092 10372 INFO  [host:27017] org.mongodb.driver.cluster              : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=53323000} 
+2024-09-21 00:13:02.658 11938 INFO  [      main] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Starting... 
+2024-09-21 00:13:03.006 12286 INFO  [      main] com.zaxxer.hikari.pool.HikariPool       : mysql_yun - Added connection com.mysql.cj.jdbc.ConnectionImpl@60bd11f7 
+2024-09-21 00:13:03.011 12291 INFO  [      main] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Start completed. 
+2024-09-21 00:13:03.014 12294 INFO  [      main] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource - add a datasource named [mysql_yun] success 
+2024-09-21 00:13:03.014 12294 INFO  [      main] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource initial loaded [1] datasource,primary datasource named [mysql_yun] 
+2024-09-21 00:13:03.487 12767 INFO  [      main] com.easy.redis.config.RedisConfig       : 初始化 redis 配置 
+2024-09-21 00:13:03.696 12976 INFO  [      main] org.redisson.Version                    : Redisson 3.23.4 
+2024-09-21 00:13:04.332 13612 INFO  [-netty-2-6] o.r.c.pool.MasterPubSubConnectionPool   : 1 connections initialized for localhost/127.0.0.1:9379 
+2024-09-21 00:13:04.533 13813 INFO  [-netty-2-4] o.r.connection.pool.MasterConnectionPool: 32 connections initialized for localhost/127.0.0.1:9379 
+2024-09-21 00:13:06.667 15947 INFO  [      main] io.undertow                             : starting server: Undertow - 2.3.8.Final 
+2024-09-21 00:13:06.687 15967 INFO  [      main] org.xnio                                : XNIO version 3.8.8.Final 
+2024-09-21 00:13:06.710 15990 INFO  [      main] org.xnio.nio                            : XNIO NIO Implementation Version 3.8.8.Final 
+2024-09-21 00:13:06.769 16049 INFO  [      main] org.jboss.threads                       : JBoss Threads version 3.5.0.Final 
+2024-09-21 00:13:06.887 16167 INFO  [      main] com.easy.demo.DemoApplication        : Started DemoApplication in 15.198 seconds (process running for 24.813)
+2024-09-21 00:13:06.895 16175 WARN  [      main] com.easy.demo.DemoApplication        :
+██████╗ ███████╗███╗   ███╗ ██████╗
+██╔══██╗██╔════╝████╗ ████║██╔═══██╗
+██║  ██║█████╗  ██╔████╔██║██║   ██║
+██║  ██║██╔══╝  ██║╚██╔╝██║██║   ██║
+██████╔╝███████╗██║ ╚═╝ ██║╚██████╔╝
+╚═════╝ ╚══════╝╚═╝     ╚═╝ ╚═════╝
+PROFILE: [dev]
+SERVER PORT: 8081 
+2024-09-21 00:21:25.750 515030 INFO  [utdownHook] io.undertow                             : stopping server: Undertow - 2.3.8.Final 
+2024-09-21 00:21:25.846 515126 INFO  [utdownHook] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource start closing .... 
+2024-09-21 00:21:25.852 515132 INFO  [utdownHook] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Shutdown initiated... 
+2024-09-21 00:21:25.866 515146 INFO  [utdownHook] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Shutdown completed. 
+2024-09-21 00:21:25.866 515146 INFO  [utdownHook] c.b.d.d.d.DefaultDataSourceDestroyer    : dynamic-datasource close the datasource named [mysql_yun] success, 
+2024-09-21 00:21:25.866 515146 INFO  [utdownHook] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource all closed success,bye 
+2024-09-21 00:23:30.672 2157 INFO  [nd-preinit] o.h.validator.internal.util.Version     : HV000001: Hibernate Validator 8.0.1.Final 
+2024-09-21 00:23:30.888 2373 INFO  [      main] com.easy.demo.DemoApplication           : Starting DemoApplication using Java 17.0.12 with PID 8512 (C:\Users\16655054153\Desktop\github\springboot_demo\demo\target\classes started by 16655054153 in C:\Users\16655054153\Desktop\github\springboot_demo) 
+2024-09-21 00:23:30.890 2375 INFO  [      main] com.easy.demo.DemoApplication           : The following 1 profile is active: "dev" 
+2024-09-21 00:23:39.780 11265 WARN  [      main] io.undertow.websockets.jsr              : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used 
+2024-09-21 00:23:39.832 11317 INFO  [      main] io.undertow.servlet                     : Initializing Spring embedded WebApplicationContext 
+2024-09-21 00:23:40.395 11880 INFO  [      main] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Starting... 
+2024-09-21 00:23:40.695 12180 INFO  [      main] com.zaxxer.hikari.pool.HikariPool       : mysql_yun - Added connection com.mysql.cj.jdbc.ConnectionImpl@b90c5a5 
+2024-09-21 00:23:40.700 12185 INFO  [      main] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Start completed. 
+2024-09-21 00:23:40.703 12188 INFO  [      main] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource - add a datasource named [mysql_yun] success 
+2024-09-21 00:23:40.704 12189 INFO  [      main] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource initial loaded [1] datasource,primary datasource named [mysql_yun] 
+2024-09-21 00:23:41.150 12635 WARN  [      main] org.mongodb.driver.uri                  : Connection string contains unsupported option 'servertimezone'. 
+2024-09-21 00:23:41.423 12908 INFO  [      main] org.mongodb.driver.client               : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "4.9.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Amazon.com Inc./17.0.12+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@51fa09c7, com.mongodb.Jep395RecordCodecProvider@73db7df0]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, contextProvider=null} 
+2024-09-21 00:23:41.439 12924 INFO  [host:27017] org.mongodb.driver.cluster              : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=48212700} 
+2024-09-21 00:23:42.868 14353 INFO  [      main] com.easy.redis.config.RedisConfig       : 初始化 redis 配置 
+2024-09-21 00:23:43.047 14532 INFO  [      main] org.redisson.Version                    : Redisson 3.23.4 
+2024-09-21 00:23:43.614 15099 INFO  [-netty-2-6] o.r.c.pool.MasterPubSubConnectionPool   : 1 connections initialized for localhost/127.0.0.1:9379 
+2024-09-21 00:23:43.821 15306 INFO  [-netty-2-4] o.r.connection.pool.MasterConnectionPool: 32 connections initialized for localhost/127.0.0.1:9379 
+2024-09-21 00:23:45.463 16948 INFO  [      main] io.undertow                             : starting server: Undertow - 2.3.8.Final 
+2024-09-21 00:23:45.478 16963 INFO  [      main] org.xnio                                : XNIO version 3.8.8.Final 
+2024-09-21 00:23:45.496 16981 INFO  [      main] org.xnio.nio                            : XNIO NIO Implementation Version 3.8.8.Final 
+2024-09-21 00:23:45.541 17026 INFO  [      main] org.jboss.threads                       : JBoss Threads version 3.5.0.Final 
+2024-09-21 00:23:45.637 17122 INFO  [      main] com.easy.demo.DemoApplication           : Started DemoApplication in 16.607 seconds (process running for 18.63) 
+2024-09-21 00:23:45.643 17128 WARN  [      main] com.easy.demo.DemoApplication           : 
+██████╗ ███████╗███╗   ███╗ ██████╗
+██╔══██╗██╔════╝████╗ ████║██╔═══██╗
+██║  ██║█████╗  ██╔████╔██║██║   ██║
+██║  ██║██╔══╝  ██║╚██╔╝██║██║   ██║
+██████╔╝███████╗██║ ╚═╝ ██║╚██████╔╝
+╚═════╝ ╚══════╝╚═╝     ╚═╝ ╚═════╝
+PROFILE: [dev]
+SERVER PORT: 8081 
+2024-09-21 00:23:54.627 26112 INFO  [O-1 task-2] io.undertow.servlet                     : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-09-21 00:23:55.331 26816 INFO  [O-1 task-4] o.springdoc.api.AbstractOpenApiResource : Init duration for springdoc-openapi is: 231 ms 
+2024-09-21 00:25:30.829 122314 INFO  [utdownHook] io.undertow                             : stopping server: Undertow - 2.3.8.Final 
+2024-09-21 00:25:30.835 122320 INFO  [utdownHook] io.undertow.servlet                     : Destroying Spring FrameworkServlet 'dispatcherServlet' 
+2024-09-21 00:25:30.893 122378 INFO  [utdownHook] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource start closing .... 
+2024-09-21 00:25:30.898 122383 INFO  [utdownHook] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Shutdown initiated... 
+2024-09-21 00:25:30.910 122395 INFO  [utdownHook] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Shutdown completed. 
+2024-09-21 00:25:30.910 122395 INFO  [utdownHook] c.b.d.d.d.DefaultDataSourceDestroyer    : dynamic-datasource close the datasource named [mysql_yun] success, 
+2024-09-21 00:25:30.910 122395 INFO  [utdownHook] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource all closed success,bye 
+2024-09-21 00:27:47.121 2083 INFO  [nd-preinit] o.h.validator.internal.util.Version     : HV000001: Hibernate Validator 8.0.1.Final 
+2024-09-21 00:27:48.010 2972 INFO  [      main] com.easy.demo.DemoApplication           : Starting DemoApplication using Java 17.0.12 with PID 19724 (C:\Users\16655054153\Desktop\github\springboot_demo\demo\target\classes started by 16655054153 in C:\Users\16655054153\Desktop\github\springboot_demo) 
+2024-09-21 00:27:48.012 2974 INFO  [      main] com.easy.demo.DemoApplication           : The following 1 profile is active: "dev" 
+2024-09-21 00:27:54.945 9907 WARN  [      main] io.undertow.websockets.jsr              : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used 
+2024-09-21 00:27:54.990 9952 INFO  [      main] io.undertow.servlet                     : Initializing Spring embedded WebApplicationContext 
+2024-09-21 00:27:55.764 10726 INFO  [      main] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Starting... 
+2024-09-21 00:27:56.166 11128 INFO  [      main] com.zaxxer.hikari.pool.HikariPool       : mysql_yun - Added connection com.mysql.cj.jdbc.ConnectionImpl@158e3a79 
+2024-09-21 00:27:56.171 11133 INFO  [      main] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Start completed. 
+2024-09-21 00:27:56.174 11136 INFO  [      main] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource - add a datasource named [mysql_yun] success 
+2024-09-21 00:27:56.175 11137 INFO  [      main] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource initial loaded [1] datasource,primary datasource named [mysql_yun] 
+2024-09-21 00:27:56.911 11873 WARN  [      main] org.mongodb.driver.uri                  : Connection string contains unsupported option 'servertimezone'. 
+2024-09-21 00:27:57.442 12404 INFO  [      main] org.mongodb.driver.client               : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "4.9.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Amazon.com Inc./17.0.12+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@30c96ea9, com.mongodb.Jep395RecordCodecProvider@62a9d176]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, contextProvider=null} 
+2024-09-21 00:27:57.473 12435 INFO  [host:27017] org.mongodb.driver.cluster              : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=102608600} 
+2024-09-21 00:28:00.295 15257 INFO  [      main] com.easy.redis.config.RedisConfig       : 初始化 redis 配置 
+2024-09-21 00:28:00.526 15488 INFO  [      main] org.redisson.Version                    : Redisson 3.23.4 
+2024-09-21 00:28:01.125 16087 INFO  [-netty-2-5] o.r.c.pool.MasterPubSubConnectionPool   : 1 connections initialized for localhost/127.0.0.1:9379 
+2024-09-21 00:28:01.273 16235 INFO  [-netty-2-4] o.r.connection.pool.MasterConnectionPool: 32 connections initialized for localhost/127.0.0.1:9379 
+2024-09-21 00:28:03.328 18290 INFO  [      main] io.undertow                             : starting server: Undertow - 2.3.8.Final 
+2024-09-21 00:28:03.374 18336 INFO  [      main] org.xnio                                : XNIO version 3.8.8.Final 
+2024-09-21 00:28:03.457 18419 INFO  [      main] org.xnio.nio                            : XNIO NIO Implementation Version 3.8.8.Final 
+2024-09-21 00:28:03.575 18537 INFO  [      main] org.jboss.threads                       : JBoss Threads version 3.5.0.Final 
+2024-09-21 00:28:03.961 18923 INFO  [      main] com.easy.demo.DemoApplication           : Started DemoApplication in 18.284 seconds (process running for 23.512) 
+2024-09-21 00:28:03.983 18945 WARN  [      main] com.easy.demo.DemoApplication           : 
+██████╗ ███████╗███╗   ███╗ ██████╗
+██╔══██╗██╔════╝████╗ ████║██╔═══██╗
+██║  ██║█████╗  ██╔████╔██║██║   ██║
+██║  ██║██╔══╝  ██║╚██╔╝██║██║   ██║
+██████╔╝███████╗██║ ╚═╝ ██║╚██████╔╝
+╚═════╝ ╚══════╝╚═╝     ╚═╝ ╚═════╝
+PROFILE: [dev]
+SERVER PORT: 8081 
+2024-09-21 00:28:10.316 25278 WARN  [tor-thread] o.m.spring.mapper.ClassPathMapperScanner: No MyBatis mapper was found in '[com.easy.**.dao]' package. Please check your configuration. 
+2024-09-21 00:28:37.061 52023 INFO  [O-1 task-2] io.undertow.servlet                     : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-09-21 00:28:50.977 65939 INFO  [O-1 task-2] o.springdoc.api.AbstractOpenApiResource : Init duration for springdoc-openapi is: 379 ms 
+2024-09-21 00:35:30.979 465941 INFO  [utdownHook] io.undertow                             : stopping server: Undertow - 2.3.8.Final 
+2024-09-21 00:35:30.982 465944 INFO  [utdownHook] io.undertow.servlet                     : Destroying Spring FrameworkServlet 'dispatcherServlet' 
+2024-09-21 00:35:31.042 466004 INFO  [utdownHook] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource start closing .... 
+2024-09-21 00:35:31.046 466008 INFO  [utdownHook] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Shutdown initiated... 
+2024-09-21 00:35:31.056 466018 INFO  [utdownHook] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Shutdown completed. 
+2024-09-21 00:35:31.057 466019 INFO  [utdownHook] c.b.d.d.d.DefaultDataSourceDestroyer    : dynamic-datasource close the datasource named [mysql_yun] success, 
+2024-09-21 00:35:31.057 466019 INFO  [utdownHook] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource all closed success,bye 
+2024-09-21 00:35:48.778 2758 INFO  [nd-preinit] o.h.validator.internal.util.Version     : HV000001: Hibernate Validator 8.0.1.Final 
+2024-09-21 00:35:49.578 3558 INFO  [      main] com.easy.demo.DemoApplication           : Starting DemoApplication using Java 17.0.12 with PID 20008 (C:\Users\16655054153\Desktop\github\springboot_demo\demo\target\classes started by 16655054153 in C:\Users\16655054153\Desktop\github\springboot_demo) 
+2024-09-21 00:35:49.579 3559 INFO  [      main] com.easy.demo.DemoApplication           : The following 1 profile is active: "dev" 
+2024-09-21 00:35:54.660 8640 WARN  [      main] io.undertow.websockets.jsr              : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used 
+2024-09-21 00:35:54.701 8681 INFO  [      main] io.undertow.servlet                     : Initializing Spring embedded WebApplicationContext 
+2024-09-21 00:35:55.371 9351 INFO  [      main] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Starting... 
+2024-09-21 00:35:55.685 9665 INFO  [      main] com.zaxxer.hikari.pool.HikariPool       : mysql_yun - Added connection com.mysql.cj.jdbc.ConnectionImpl@61c946a0 
+2024-09-21 00:35:55.689 9669 INFO  [      main] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Start completed. 
+2024-09-21 00:35:55.692 9672 INFO  [      main] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource - add a datasource named [mysql_yun] success 
+2024-09-21 00:35:55.692 9672 INFO  [      main] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource initial loaded [1] datasource,primary datasource named [mysql_yun] 
+2024-09-21 00:35:56.422 10402 WARN  [      main] org.mongodb.driver.uri                  : Connection string contains unsupported option 'servertimezone'. 
+2024-09-21 00:35:56.723 10703 INFO  [      main] org.mongodb.driver.client               : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "4.9.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Amazon.com Inc./17.0.12+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@20309365, com.mongodb.Jep395RecordCodecProvider@7306f65f]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, contextProvider=null} 
+2024-09-21 00:35:56.748 10728 INFO  [host:27017] org.mongodb.driver.cluster              : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=55769900} 
+2024-09-21 00:35:58.378 12358 INFO  [      main] com.easy.redis.config.RedisConfig       : 初始化 redis 配置 
+2024-09-21 00:35:58.536 12516 INFO  [      main] org.redisson.Version                    : Redisson 3.23.4 
+2024-09-21 00:35:59.056 13036 INFO  [-netty-2-6] o.r.c.pool.MasterPubSubConnectionPool   : 1 connections initialized for localhost/127.0.0.1:9379 
+2024-09-21 00:35:59.217 13197 INFO  [-netty-2-4] o.r.connection.pool.MasterConnectionPool: 32 connections initialized for localhost/127.0.0.1:9379 
+2024-09-21 00:36:00.600 14580 INFO  [      main] io.undertow                             : starting server: Undertow - 2.3.8.Final 
+2024-09-21 00:36:00.614 14594 INFO  [      main] org.xnio                                : XNIO version 3.8.8.Final 
+2024-09-21 00:36:00.631 14611 INFO  [      main] org.xnio.nio                            : XNIO NIO Implementation Version 3.8.8.Final 
+2024-09-21 00:36:00.678 14658 INFO  [      main] org.jboss.threads                       : JBoss Threads version 3.5.0.Final 
+2024-09-21 00:36:00.769 14749 INFO  [      main] com.easy.demo.DemoApplication           : Started DemoApplication in 14.009 seconds (process running for 19.565) 
+2024-09-21 00:36:00.774 14754 WARN  [      main] com.easy.demo.DemoApplication           : 
+██████╗ ███████╗███╗   ███╗ ██████╗
+██╔══██╗██╔════╝████╗ ████║██╔═══██╗
+██║  ██║█████╗  ██╔████╔██║██║   ██║
+██║  ██║██╔══╝  ██║╚██╔╝██║██║   ██║
+██████╔╝███████╗██║ ╚═╝ ██║╚██████╔╝
+╚═════╝ ╚══════╝╚═╝     ╚═╝ ╚═════╝
+PROFILE: [dev]
+SERVER PORT: 8081 
+2024-09-21 00:39:15.003 208983 INFO  [utdownHook] io.undertow                             : stopping server: Undertow - 2.3.8.Final 
+2024-09-21 00:39:15.223 209203 INFO  [utdownHook] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource start closing .... 
+2024-09-21 00:39:15.236 209216 INFO  [utdownHook] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Shutdown initiated... 
+2024-09-21 00:39:15.264 209244 INFO  [utdownHook] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Shutdown completed. 
+2024-09-21 00:39:15.264 209244 INFO  [utdownHook] c.b.d.d.d.DefaultDataSourceDestroyer    : dynamic-datasource close the datasource named [mysql_yun] success, 
+2024-09-21 00:39:15.265 209245 INFO  [utdownHook] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource all closed success,bye 
+2024-09-21 00:39:33.701 3066 INFO  [nd-preinit] o.h.validator.internal.util.Version     : HV000001: Hibernate Validator 8.0.1.Final 
+2024-09-21 00:39:35.502 4867 INFO  [      main] com.easy.demo.DemoApplication           : Starting DemoApplication using Java 17.0.12 with PID 14412 (C:\Users\16655054153\Desktop\github\springboot_demo\demo\target\classes started by 16655054153 in C:\Users\16655054153\Desktop\github\springboot_demo) 
+2024-09-21 00:39:35.505 4870 INFO  [      main] com.easy.demo.DemoApplication           : The following 1 profile is active: "dev" 
+2024-09-21 00:39:44.551 13916 WARN  [      main] io.undertow.websockets.jsr              : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used 
+2024-09-21 00:39:44.591 13956 INFO  [      main] io.undertow.servlet                     : Initializing Spring embedded WebApplicationContext 
+2024-09-21 00:39:45.196 14561 INFO  [      main] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Starting... 
+2024-09-21 00:39:45.533 14898 INFO  [      main] com.zaxxer.hikari.pool.HikariPool       : mysql_yun - Added connection com.mysql.cj.jdbc.ConnectionImpl@5599f22f 
+2024-09-21 00:39:45.538 14903 INFO  [      main] com.zaxxer.hikari.HikariDataSource      : mysql_yun - Start completed. 
+2024-09-21 00:39:45.541 14906 INFO  [      main] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource - add a datasource named [mysql_yun] success 
+2024-09-21 00:39:45.541 14906 INFO  [      main] c.b.d.d.DynamicRoutingDataSource        : dynamic-datasource initial loaded [1] datasource,primary datasource named [mysql_yun] 
+2024-09-21 00:39:46.189 15554 WARN  [      main] org.mongodb.driver.uri                  : Connection string contains unsupported option 'servertimezone'. 
+2024-09-21 00:39:46.501 15866 INFO  [      main] org.mongodb.driver.client               : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "4.9.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Amazon.com Inc./17.0.12+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@6655b4e6, com.mongodb.Jep395RecordCodecProvider@33c6c4f]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, contextProvider=null} 
+2024-09-21 00:39:46.515 15880 INFO  [host:27017] org.mongodb.driver.cluster              : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=52590800} 
+2024-09-21 00:39:48.372 17737 INFO  [      main] com.easy.redis.config.RedisConfig       : 初始化 redis 配置 
+2024-09-21 00:39:48.537 17902 INFO  [      main] org.redisson.Version                    : Redisson 3.23.4 
+2024-09-21 00:39:49.063 18428 INFO  [-netty-2-5] o.r.c.pool.MasterPubSubConnectionPool   : 1 connections initialized for localhost/127.0.0.1:9379 
+2024-09-21 00:39:49.211 18576 INFO  [-netty-2-4] o.r.connection.pool.MasterConnectionPool: 32 connections initialized for localhost/127.0.0.1:9379 
+2024-09-21 00:39:50.504 19869 INFO  [      main] io.undertow                             : starting server: Undertow - 2.3.8.Final 
+2024-09-21 00:39:50.518 19883 INFO  [      main] org.xnio                                : XNIO version 3.8.8.Final 
+2024-09-21 00:39:50.533 19898 INFO  [      main] org.xnio.nio                            : XNIO NIO Implementation Version 3.8.8.Final 
+2024-09-21 00:39:50.580 19945 INFO  [      main] org.jboss.threads                       : JBoss Threads version 3.5.0.Final 
+2024-09-21 00:39:50.673 20038 INFO  [      main] com.easy.demo.DemoApplication           : Started DemoApplication in 19.132 seconds (process running for 26.407) 
+2024-09-21 00:39:50.678 20043 WARN  [      main] com.easy.demo.DemoApplication           : 
+██████╗ ███████╗███╗   ███╗ ██████╗
+██╔══██╗██╔════╝████╗ ████║██╔═══██╗
+██║  ██║█████╗  ██╔████╔██║██║   ██║
+██║  ██║██╔══╝  ██║╚██╔╝██║██║   ██║
+██████╔╝███████╗██║ ╚═╝ ██║╚██████╔╝
+╚═════╝ ╚══════╝╚═╝     ╚═╝ ╚═════╝
+PROFILE: [dev]
+SERVER PORT: 8081 
+2024-09-21 00:45:45.914 375279 WARN  [tor-thread] o.m.spring.mapper.ClassPathMapperScanner: No MyBatis mapper was found in '[com.easy.**.dao]' package. Please check your configuration. 
+2024-09-21 00:46:05.006 394371 WARN  [tor-thread] o.m.spring.mapper.ClassPathMapperScanner: No MyBatis mapper was found in '[com.easy.**.dao]' package. Please check your configuration. 

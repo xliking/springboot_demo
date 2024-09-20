@@ -1,0 +1,3 @@
+com.easy.mongo.config.MongoConfig
+com.easy.mongo.controller.FileController
+com.easy.mongo.service.FileStorageService
